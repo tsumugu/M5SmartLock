@@ -1,5 +1,5 @@
 # M5SmartLock
-M5StickCとサーボモータのSG92Rでシンプルなスマートロックを自作することを目的としたプロジェクト。
+M5StickCとサーボモータ(SG92R)を用いて、シンプルなスマートロックを自作するプロジェクト。
 ![PXL_20210906_100132880](https://user-images.githubusercontent.com/29032673/132202541-8e7e3a07-6960-41be-b272-533cf61c568d.jpg)
 [YouTube動画](https://www.youtube.com/watch?v=8JwmWsKJItM)
 # 組み立て方法

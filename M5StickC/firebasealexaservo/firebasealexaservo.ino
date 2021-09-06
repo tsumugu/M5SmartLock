@@ -69,6 +69,8 @@ void setup() {
   M5.begin();
   Serial.begin(115200);
   Wire.begin(0,26);
+  // Set Screen Brightness(8-12)
+  M5.Axp.ScreenBreath(8);
   M5.Lcd.setRotation(3);
   M5.Lcd.setCursor(0,0,2);
   WiFi.begin(WIFI_SSID, WIFI_PASSWORD);
