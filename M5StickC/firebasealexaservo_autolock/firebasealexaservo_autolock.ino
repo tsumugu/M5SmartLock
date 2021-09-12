@@ -206,7 +206,7 @@ void loop() {
     // GYRO_Y_TRESHOLDを超えていたとき
     if (avr>=GYRO_Y_TRESHOLD && !isSendCommand) {
       // 開いたとしてUNLOCK処理する
-      open_door();
+      sendCommandToIoTCloud("UNLOCKED");
       //
       isSendCommand = true;
       // 閾値秒後に発火するイベントを設定
@@ -232,7 +232,7 @@ void loop() {
       isTimerStarted = false;
       startMills = 0;
       // 自動的にロック
-      lock_door();
+      sendCommandToIoTCloud("LOCKED");
       //
     }
   }
